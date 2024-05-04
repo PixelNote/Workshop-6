@@ -29,9 +29,14 @@ La tarjeta esclava, en este caso el Arduino Uno, cumple la función de registrar
   <img src="https://github.com/PixelNote/Workshop-6/assets/81392047/92e8ba92-0489-4741-b4be-0d282a5e7170" alt="Daigrama de actividades" width="600"/>
 </p>
 
-Al tener el diagrama de actividades hecho, el siguiente paso es realizar el código tanto para el Arduino Uno, como para el esp32, recordando el rol de cada uno.
+Al tener el diagrama de actividades hecho, el siguiente paso es realizar la conexión de los dispositivos correspondientes. La siguiente imagen muestra la simulación de la conexión usando la plataforma tinkercad. Sin embargo, no hay que tomar en cuenta los pines utilizados en la simulación, ya que tinkercad no cuenta con un modulo para mostrar el esp32. Esta simulación solo fue con fines visuales de referencia para su posterior conexión física.
+<p align="center">
+  <img src="https://github.com/PixelNote/Workshop-6/assets/81392047/6639ea00-6a7f-44f0-98d5-6dc0e736916e" alt="Daigrama de actividades" width="600"/>
+</p>
 
-### Código de la tarjeta Master (esp32)
+Finalmente, el siguiente código fue usado por cada tarjeta, tanto maestra como esclava, para permitir la conexión entre las tarjetas, el envió de datos y la visualización de la información del sensor en ThingSpeak.
+
+### Código de la tarjeta Maestra (esp32)
 
 ```
 // the hello world program
