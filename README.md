@@ -34,6 +34,14 @@ Al tener el diagrama de actividades hecho, el siguiente paso es realizar la cone
   <img src="https://github.com/PixelNote/Workshop-6/assets/81392047/6639ea00-6a7f-44f0-98d5-6dc0e736916e" alt="Daigrama de actividades" width="600"/>
 </p>
 
+Para la conexión, la tarjeta Arduino Uno tiene puertos específicos para el SCL y SDA, estos se encuentras dos posiciones despues del pin 13. El sensor de temperatura se encuentra ubicado en la entrada análoga A5 de la tarjeta Arduino. Para el esp32, se usaron los puertos mencionados al inicio de la wiki, y el actuador led se encuentra ubicado en el puerto D27. Las siguientes imagenes muestran la conexión física de todos los pines de ambas tarjetas.
+
+<p align="center">
+  <img src="https://github.com/PixelNote/Workshop-6/assets/81392047/10c4b96f-7673-4fb0-985b-e3b150413906" alt="Conexión física 1" width="600"/>
+  <img src="https://github.com/PixelNote/Workshop-6/assets/81392047/6393ed59-028c-4d34-a2a9-647d4e9aef6e" alt="Conexión física 2" width="600"/>
+</p>
+
+
 Finalmente, el siguiente código fue usado por cada tarjeta, tanto maestra como esclava, para permitir la conexión entre las tarjetas, el envió de datos y la visualización de la información del sensor en ThingSpeak.
 
 ### Código de la tarjeta Maestra (esp32)
