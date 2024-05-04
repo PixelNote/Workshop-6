@@ -42,7 +42,7 @@ Para la conexión, la tarjeta Arduino Uno tiene puertos específicos para el SCL
 </p>
 
 
-Finalmente, el siguiente código fue usado por cada tarjeta, tanto maestra como esclava, para permitir la conexión entre las tarjetas, el envió de datos y la visualización de la información del sensor en ThingSpeak.
+Finalmente, el siguiente código fue usado por cada tarjeta, tanto maestra como esclava, para permitir la conexión entre las tarjetas, el envió de datos y la visualización de la información del sensor en ThingSpeak. Este código se encuentra comentado con los puntos importantes y en la raíz de la wiki están los archivos.
 
 ### Código de la tarjeta Maestra (esp32)
 
