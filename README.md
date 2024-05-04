@@ -57,6 +57,10 @@ console.log('Hello World');
 console.log('Hello World');
 ```
 
+### Video demostración
+
+[![](https://markdown-videos.deta.dev/youtube/lmpRn2DCYes)](https://youtu.be/lmpRn2DCYes)
+
 ## Referencias
 [1] https://cursos.mcielectronics.cl/2022/08/23/i2c/
 
