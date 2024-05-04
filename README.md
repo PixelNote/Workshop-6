@@ -22,8 +22,11 @@ Si revisamos la documentación de Arduino, podemos ver que para un Arduino Nano,
 
 ## Referencias
 [1] https://cursos.mcielectronics.cl/2022/08/23/i2c/
+
 [2] https://hetpro-store.com/TUTORIALES/i2c/
+
 [3] https://docs.arduino.cc/learn/communication/wire/#arduino-i2c-pins
+
 [4] https://www.luisllamas.es/esp32-i2c/
 
 
